@@ -1,0 +1,30 @@
+{
+  "displayProfileContents": {
+    "roomNum": "1",
+    "clinicName": "會診 Consultation",
+    "docNameCn": "梁國雄醫生",
+    "docNameEn": "Dr. LEUNG Kwok Hung, Vincent",
+    "nextTicketNos": ["CTM842"],
+    "nowServingTicketNos": ["LSM152a", "LSM152b", "LSM152c","LSM152d"],
+    "overdueTickets": ["ABC014", "ABC017", "WCY018", "ABC019", "ABC020", "CSY021"],
+    "waitingTickets": ["ABC014", "ABC017", "WCY018", "ABC019", "ABC020", "CSY021"],
+    "otherClinics": "護士站 Nurse station 登記 Registration / 取藥 Medicine",
+    "otherClinicsTicketNos": ["CMH242"]
+  },
+  "displayProfileLayout": {
+    "Width": "1080px",
+    "Height": "1920px",
+    "Room": true,
+    "Doctor": true,
+    "Next": true,
+    "NowServing": true,
+    "OverDue": false,
+    "Waiting": true,
+    "Clinic": true,
+    "Info": true,
+    "OtherClinics": false,
+    "Noti": false,
+    "TV": true
+  }
+}
+

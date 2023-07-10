@@ -1,0 +1,46 @@
+.container {
+  height: 88px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+}
+
+.clinicName {
+  width: 100%;
+  height: 54px;
+  text-align: left;
+  font: normal normal bold 36px/36px Noto Sans TC;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Portrait */
+.containerP {
+  height: 190px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+}
+
+.clinicNameP {
+  font: normal normal bold 72px/36px Noto Sans TC;
+  letter-spacing: 3.6px;
+  color: #ffffff;
+  text-align: center;
+  margin: 60px 0;
+}
+
+/* Portrait with TV */
+.containerPTV {
+  height: 88px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+}
+
+.clinicNamePTV {
+  font: normal normal bold 36px/36px Noto Sans TC;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  text-align: center;
+}

@@ -1,0 +1,261 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 586px;
+  width: 526px;
+}
+
+.titleContainer {
+  width: 526px;
+  height: 143px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title_cn {
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  font: normal normal bold 36px/36px Noto Sans TC;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.title_en {
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  font: normal normal bold 36px/36px Noto Sans TC;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.numContainer {
+  width: 526px;
+  height: 440px;
+  background-color: #ffffff;
+  background: 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 0;
+}
+
+.number {
+  text-align: center;
+  font: normal normal bold 48px/36px Noto Sans TC;
+  color: #1a1a3e;
+  margin: 0 5px;
+}
+
+/* .numsWrapper {
+  height: 213px;
+  display: grid;
+  grid-template-columns: repeat(2, 210px);
+  overflow: hidden;
+  justify-content: center;
+  margin: 130px 0;
+} */
+
+/* Smaller numContainer w/ 3 components on the right */
+.container3 {
+  display: flex;
+  flex-direction: column;
+  height: 307px;
+  width: 526px;
+}
+
+.numContainer3 {
+  width: 526px;
+  height: 164px;
+  background: #f1f8f0 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* .numContainer3 {
+  width: 526px;
+  height: 164px;
+  background: #f1f8f0 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: grid;
+  grid-template-columns: repeat(2, 210px);
+  grid-row-gap: 15px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+} */
+
+/* w/ Noti (Landscape) */
+.containerN {
+  display: flex;
+  flex-direction: column;
+  height: 375px;
+  width: 526px;
+}
+
+.titleContainerN {
+  width: 526px;
+  height: 145px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.numContainerN {
+  height: 224px;
+  max-width: 526px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+/* Landscape without Clinic */
+.containerNoClinic {
+  display: flex;
+  flex-direction: column;
+  height: 702px;
+  width: 526px;
+}
+
+.numContainerNoClinic {
+  width: 526px;
+  height: 559px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 170px 0;
+}
+
+/* Portrait */
+.containerP {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 1080px;
+}
+
+.titleContainerP {
+  width: 1080px;
+  height: 190px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleP {
+  width: 100%;
+  height: 107px;
+  text-align: center;
+  font: normal normal bold 72px/36px Noto Sans TC;
+  letter-spacing: 3.6px;
+  color: #ffffff;
+}
+
+.numContainerP {
+  width: 1080px;
+  height: 396px;
+  background: #f1f8f0 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.numsWrapperP {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.numberP {
+  text-align: center;
+  font: normal normal bold 56px/36px Noto Sans TC;
+  color: #1a1a3e;
+  margin: 20px 5px;
+}
+
+/* .numsWrapperP {
+  height: 213px;
+  display: grid;
+  grid-template-columns: repeat(4, 230px);  (number of columns, spacing) 
+  overflow: hidden;
+  justify-content: center;  Centered horizontally 
+  align-items: center;  Centered vertically 
+  margin: 130px 0;  Positioning of the numbers 
+  text-align: center;
+} */
+
+/* Portrait with TV */
+.containerPTV {
+  height: 248px;
+  width: 1080px;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainerPTV {
+  height: 88px;
+  background: #1d4e4d 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titlePTV {
+  text-align: center;
+  font: normal normal bold 36px/36px Noto Sans TC;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+}
+
+.numContainerPTV {
+  height: 158px;
+  background: #f1f8f0 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 6px #00000029, 0px 2px 2px #00000029;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.numberPTV {
+  text-align: center;
+  font: normal normal bold 28px/36px Noto Sans TC;
+  color: #1a1a3e;
+  margin: 20px 5px;
+}
